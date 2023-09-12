@@ -1,26 +1,48 @@
 {
-    "sections": {
-        "template": {
-            "type": "template-article",
-            "blocks": {
-                "title":{
-                    "type": "article_title"
-                },
-                "author": {
-                    "type": "article_author"
-                },
-                "published_date": {
-                    "type": "article_published_date"
-                },
-                "thumbnail": {
-                    "type": "featured_image"
-                },
-                "content": {
-                    "type": "article_content"
-                }
-            },
-            "block_order":["title","author ","published_date","thumbnail","content"]
+  "sections": {
+    "template": {
+      "type": "template-article",
+      "blocks": {
+        "title": {
+          "type": "article_title",
+          "settings": {
+          }
+        },
+        "published_date": {
+          "type": "article_published_date",
+          "settings": {
+          }
+        },
+        "fef58f3b-846f-45cc-b50a-f0de5bb93073": {
+          "type": "article_author",
+          "settings": {
+          }
+        },
+        "thumbnail": {
+          "type": "featured_image",
+          "settings": {
+          }
+        },
+        "content": {
+          "type": "article_content",
+          "settings": {
+          }
         }
-    },
-    "order": ["template"]
+      },
+      "block_order": [
+        "title",
+        "published_date",
+        "fef58f3b-846f-45cc-b50a-f0de5bb93073",
+        "thumbnail",
+        "content"
+      ],
+      "settings": {
+        "enable_author": true,
+        "enable_published_date": true
+      }
+    }
+  },
+  "order": [
+    "template"
+  ]
 }
